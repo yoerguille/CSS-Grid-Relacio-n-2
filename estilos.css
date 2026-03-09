@@ -1,0 +1,73 @@
+.maincontainer.ejercicio1 {
+   background: linear-gradient(to right,#E04E6E, #804ABC);
+   display: grid;
+   grid-template-columns: repeat(10, 1fr);
+   gap: 10px;
+   padding: 10px;
+}
+
+.maincontainer.ejercicio1 > div {
+   background-color: #F6C844;
+   padding: 10px;
+   font-size: 24px;
+   border: 8px solid rgba(0, 0, 0, .1);
+   font-family: Arial, Helvetica, sans-serif;
+   display: flex;
+   text-align: center;
+   font-weight: bold;
+   align-items: center;
+   justify-content: center;
+}
+
+.maincontainer.ejercicio1 > div.celda6 {
+   background-color: plum;
+   grid-column: 1 / span 6;
+   grid-row: 2 / span 1;
+}
+
+.maincontainer.ejercicio1 > div.celda8 {
+   background-color: red;
+   grid-column: 7 / span 2;
+}
+
+.maincontainer.ejercicio1 > div.celda9 {
+   background-color: lime;
+   grid-row: span 2;
+}
+
+.maincontainer.ejercicio1 > div.celda12 {
+   background-color: plum;
+   grid-column: 1 / span 6;
+   grid-row: 3 / span 1;
+}
+
+.maincontainer.ejercicio1 > div.celda16 {
+   background-color: red;
+   grid-column: span 2;
+}
+
+.maincontainer.ejercicio1 > div.celda18 {
+   background-color: limegreen;
+   grid-column: 5 / span 6;
+   grid-row: 4 / span 2;
+}
+
+.maincontainer.ejercicio1 > div.celda24 {
+   background-color: red;
+   grid-column: span 2;
+}
+
+.maincontainer.ejercicio1 > div.celda27 {
+   background-color: limegreen;
+   grid-row: span 2;
+}
+
+.maincontainer.ejercicio1 > div.celda30 {
+   background-color: plum;
+   grid-column: span 6;
+}
+
+.maincontainer.ejercicio1 > div.celda32 {
+   background-color: red;
+   grid-column: span 2;
+}
