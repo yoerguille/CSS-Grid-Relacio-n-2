@@ -169,3 +169,24 @@ header  {
     color: black;
     
 }
+
+.instagram h2 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+}
+
+.instagram div {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    align-content: center;
+    justify-items: center;
+    row-gap: 25px;
+
+}
+
+.instagram div img {
+    width: 325;
+    height: 325px;
+}
